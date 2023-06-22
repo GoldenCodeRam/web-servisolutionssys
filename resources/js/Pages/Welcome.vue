@@ -17,9 +17,7 @@ defineProps<{
             <h1 class="text-center text-3xl text-gray-800 pb-3">Servisolutions</h1>
 
             <iframe
-                class="shadow-xl mx-auto"
-                width="560"
-                height="315"
+                class="shadow-xl mx-auto w-full aspect-video max-w-3xl"
                 src="https://www.youtube.com/embed/PkDFXgqqblE?autoplay=1&mute=1"
                 title="YouTube video player"
                 frameborder="0"
