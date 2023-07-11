@@ -4,12 +4,6 @@ import { Head } from "@inertiajs/vue3";
 import Header from "@/Components/Header.vue";
 import Footer from "@/Components/Footer.vue";
 
-defineProps<{
-    canLogin?: boolean;
-    canRegister?: boolean;
-    laravelVersion: string;
-    phpVersion: string;
-}>();
 </script>
 
 <template>
