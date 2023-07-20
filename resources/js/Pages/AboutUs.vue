@@ -11,7 +11,7 @@ import Footer from "@/Components/Footer.vue";
 
     <Header />
 
-    <div class="h-full bg-white">
+    <div class="bg-white">
         <div class="my-auto py-12">
             <div
                 class="text-center text-3xl text-white py-24 bg-[url('/images/stock/1.jpg')] bg-cover bg-center bg-slate-500 bg-blend-multiply"

@@ -20,30 +20,18 @@
                 </button>
             </div>
             <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-                <Link
-                    href="/"
-                    class="text-sm font-semibold leading-6 text-gray-600"
-                >
+                <NavLink href="/">
                     Inicio
-                </Link>
-                <Link
-                    href="/about-us"
-                    class="text-sm font-semibold leading-6 text-gray-600"
-                >
+                </NavLink>
+                <NavLink href="/about-us">
                     ¿Quiénes somos?
-                </Link>
-                <Link
-                    href="/services"
-                    class="text-sm font-semibold leading-6 text-gray-600"
-                >
+                </NavLink>
+                <NavLink href="/services">
                     Servicios
-                </Link>
-                <Link
-                    href="/contact"
-                    class="text-sm font-semibold leading-6 text-gray-600"
-                >
+                </NavLink>
+                <NavLink href="/contact">
                     Contacto
-                </Link>
+                </NavLink>
                 <Link
                     href="/"
                     class="text-sm font-semibold leading-6 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-green-600"
@@ -121,6 +109,7 @@
 
 <script setup>
 import { Link } from "@inertiajs/vue3";
+import NavLink from "@/Components/NavLink.vue";
 
 import { ref } from "vue";
 import {
