@@ -27,7 +27,7 @@ defineProps<{
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="md:order-last m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"
-                    src="/images/stock/1.jpg"
+                    src="/images/stock/7.jpg"
                 />
                 <div>
                     <h1 class="text-center text-3xl text-gray-800 pb-5">
@@ -71,7 +71,7 @@ defineProps<{
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"
-                    src="/images/stock/1.jpg"
+                    src="/images/stock/6.jpg"
                 />
                 <div>
                     <h1 class="text-center text-3xl text-gray-800 pb-5">
@@ -89,7 +89,7 @@ defineProps<{
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="md:order-last m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"
-                    src="/images/stock/1.jpg"
+                    src="/images/stock/4.jpg"
                 />
                 <div>
                     <h1 class="text-center text-3xl text-gray-800 pb-5">
@@ -106,7 +106,7 @@ defineProps<{
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"
-                    src="/images/stock/1.jpg"
+                    src="/images/stock/8.jpg"
                 />
                 <div>
                     <h1 class="text-center text-3xl text-gray-800 pb-5">
@@ -129,7 +129,7 @@ defineProps<{
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="md:order-last m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"
-                    src="/images/stock/1.jpg"
+                    src="/images/stock/9.jpg"
                 />
                 <div>
                     <h1 class="text-center text-3xl text-gray-800 pb-5">
