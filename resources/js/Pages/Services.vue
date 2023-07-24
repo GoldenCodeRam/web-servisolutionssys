@@ -3,13 +3,6 @@ import { Head } from "@inertiajs/vue3";
 
 import Header from "@/Components/Header.vue";
 import Footer from "@/Components/Footer.vue";
-
-defineProps<{
-    canLogin?: boolean;
-    canRegister?: boolean;
-    laravelVersion: string;
-    phpVersion: string;
-}>();
 </script>
 
 <template>
@@ -17,13 +10,13 @@ defineProps<{
 
     <Header />
 
-    <div class="bg-white py-12">
+    <div class="bg-white">
         <div
             class="text-center text-3xl text-white py-24 bg-[url('/images/stock/2.jpg')] bg-cover bg-center bg-slate-500 bg-blend-multiply"
         >
             <h1 class="text-white">Servicios</h1>
         </div>
-        <div class="container px-5 mt-8 mx-auto max-w-5xl">
+        <div class="container flex flex-col gap-14 py-14 px-5 mt-8 mx-auto max-w-5xl">
             <div class="pb-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-5">
                 <img
                     class="md:order-last m-auto h-48 w-48 object-cover rounded-full shadow-md outline outline-slate-500"

@@ -12,13 +12,13 @@ import Footer from "@/Components/Footer.vue";
     <Header />
 
     <div class="bg-white">
-        <div class="my-auto py-12">
+        <div class="my-auto">
             <div
                 class="text-center text-3xl text-white py-24 bg-[url('/images/stock/1.jpg')] bg-cover bg-center bg-slate-500 bg-blend-multiply"
             >
                 <h1 class="text-white">¿Quiénes somos?</h1>
             </div>
-            <div class="container px-5 mt-8 mx-auto max-w-5xl">
+            <div class="container px-5 py-12 mx-auto max-w-5xl">
                 <p class="mb-3">
                     Somos una empresa concebida como gestora del mejoramiento de
                     la calidad de vida de madres y padres cabezas de hogar bajo
