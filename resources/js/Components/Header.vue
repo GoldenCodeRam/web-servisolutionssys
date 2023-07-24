@@ -33,7 +33,7 @@
                     Contacto
                 </NavLink>
                 <Link
-                    href="/"
+                    href="/work-with-us"
                     class="text-sm font-semibold leading-6 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-green-600"
                 >
                     Trabaja con nosotros
@@ -93,7 +93,7 @@
                                 class="-mx-3 block rounded-lg px-3 py-2 hover:bg-gray-100"
                             >
                                 <Link
-                                    href="#"
+                                    href="/work-with-us"
                                     class="text-base font-semibold leading-7 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-green-600"
                                 >
                                     Trabaja con nosotros

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CandidateController;
+
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -25,6 +27,15 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/work-with-us', function() {
+    return Inertia::render('WorkWithUs');
+})->name('work-with-us');
+
+Route::post(
+    '/work-with-us',
+    [CandidateController::class, 'register']
+)->name('work-with-us.register');
+
 Route::get('/about-us', function () {
     return Inertia::render('AboutUs');
 })->name('about-us');
@@ -41,6 +52,7 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+// Not used
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
