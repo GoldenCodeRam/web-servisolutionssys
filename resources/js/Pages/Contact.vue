@@ -37,7 +37,7 @@
                             class="bg-sky-600 rounded-lg px-5 py-3 flex gap-4 text-white items-center mb-8"
                         >
                             <PhoneIcon class="h-8 w-8 text-white" />
-                            <h1 class="text-lg">(+57) 313 2441 8196</h1>
+                            <h1 class="text-lg">(+57) 313 241 8196</h1>
                         </div>
                         <div
                             class="bg-sky-600 rounded-lg px-5 py-3 flex gap-4 text-white items-center"
