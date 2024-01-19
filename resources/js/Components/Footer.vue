@@ -18,16 +18,16 @@
                             class="grid grid-cols-1 gap-1 text-sm leading-6"
                         >
                             <li class="flex gap-x-3">
-                                <Link href="/">¿Quiénes somos?</Link>
+                                <Link href="/about-us">¿Quiénes somos?</Link>
                             </li>
                             <li class="flex gap-x-3">
-                                <Link href="/">Servicios</Link>
+                                <Link href="/services">Servicios</Link>
                             </li>
                             <li class="flex gap-x-3">
-                                <Link href="/">Contacto</Link>
+                                <Link href="/contact">Contacto</Link>
                             </li>
                             <li class="flex gap-x-3">
-                                <Link href="/">Trabaja con nosotros</Link>
+                                <Link href="/work-with-us">Trabaja con nosotros</Link>
                             </li>
                         </ul>
                     </div>

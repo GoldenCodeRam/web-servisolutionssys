@@ -41,9 +41,9 @@ const breakpoints = {
     <Header />
 
     <div class="flex flex-col bg-white">
-        <div class="my-auto py-12 px-3">
+        <div class="my-auto py-12 px-8">
             <div class="container mx-auto">
-                <h1 class="text-center text-3xl text-gray-800 pb-8">
+                <h1 class="text-center text-4xl text-gray-800 pb-8">
                     Somos un mundo de soluciones a las necesidades de nuestros clientes
                 </h1>
 
@@ -51,10 +51,31 @@ const breakpoints = {
                     <source src="videos/welcome.mp4" type="video/mp4">
                 </video>
 
-                <h1 class="text-center text-2xl text-gray-800 pt-12">
+                <div class="flex flex-col sm:flex-row justify-center py-24">
+                    <div class="max-w-xl flex flex-col justify-center items-center p-0 sm:pe-12">
+                        <h1 class="text-center font-bold text-3xl text-teal-800 pb-2">
+                            Nuestro equipo
+                        </h1>
+
+                        <p class="hidden sm:block">
+                            En <b class="font-semibold leading-6 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-green-600">Servisolutions</b>,
+                            nos enorgullece presentar a nuestro talentoso equipo
+                            de limpieza, dedicado a transformar cada espacio en
+                            un santuario de frescura y pulcritud. ¿Por qué
+                            conformarse con lo común cuando puedes disfrutar de
+                            un servicio de limpieza excepcional?
+                        </p>
+                    </div>
+
+                    <video class="mx-auto sm:mx-0 shadow-xl w-[20rem]" controls autoplay muted>
+                        <source src="videos/team1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <h1 class="text-center font-bold text-3xl text-teal-800">
                     Nuestros clientes
                 </h1>
-                <div class="py-5">
+                <div class="py-3">
                     <Carousel wrapAround :autoplay="5000" snapAlign="center" :breakpoints="breakpoints">
                         <Slide key="1">
                                 <img src="images/clients/cdm.png">
