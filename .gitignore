@@ -20,3 +20,4 @@ yarn-error.log
 
 # Remove all zip files
 *.zip
+.devenv

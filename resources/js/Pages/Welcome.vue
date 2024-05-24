@@ -47,11 +47,11 @@ const breakpoints = {
                     Somos un mundo de soluciones a las necesidades de nuestros clientes
                 </h1>
 
-                <video class="shadow-xl mx-auto w-full aspect-video max-w-3xl" controls autoplay>
+                <video class="shadow-xl mx-auto w-full aspect-video max-w-3xl" controls autoplay muted>
                     <source src="videos/welcome.mp4" type="video/mp4">
                 </video>
 
-                <div class="flex flex-col sm:flex-row justify-center py-24">
+                <div class="flex flex-col sm:flex-row justify-center pt-24">
                     <div class="max-w-xl flex flex-col justify-center items-center p-0 sm:pe-12">
                         <h1 class="text-center font-bold text-3xl text-teal-800 pb-2">
                             Nuestro equipo
@@ -72,25 +72,71 @@ const breakpoints = {
                     </video>
                 </div>
 
+                <div class="flex flex-col sm:flex-row justify-center pt-24 gap-12">
+                    <div class="max-w-xl flex flex-col justify-center items-center p-0">
+                        <h1 class="text-center font-bold text-3xl text-teal-800 pb-2">
+                            Antes
+                        </h1>
+
+                        <video class="mx-auto sm:mx-0 shadow-xl w-[20rem]" controls muted>
+                            <source src="videos/1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="max-w-xl flex flex-col justify-center items-center p-0">
+                        <h1 class="text-center font-bold text-3xl text-teal-800 pb-2">
+                            Después
+                        </h1>
+
+                        <video class="mx-auto sm:mx-0 shadow-xl w-[20rem]" controls muted>
+                            <source src="videos/2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center py-24 gap-12">
+                    <div class="max-w-xl flex flex-col justify-center items-center p-0">
+                        <h1 class="text-center font-bold text-3xl text-teal-800 pb-2">
+                            Nuestro Trabajo
+                        </h1>
+
+                        <video class="mx-auto sm:mx-0 shadow-xl w-[20rem]" controls muted>
+                            <source src="videos/3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
                 <h1 class="text-center font-bold text-3xl text-teal-800">
                     Nuestros clientes
                 </h1>
                 <div class="py-3">
                     <Carousel wrapAround :autoplay="5000" snapAlign="center" :breakpoints="breakpoints">
                         <Slide key="1">
-                                <img src="images/clients/cdm.png">
+                            <img src="images/clients/cdm.png">
                         </Slide>
                         <Slide key="2">
-                                <img src="images/clients/cvp.jpg">
+                            <img src="images/clients/cvp.jpg">
                         </Slide>
                         <Slide key="3">
-                                <img src="images/clients/lupita.jpg">
+                            <img src="images/clients/lupita.jpg">
                         </Slide>
                         <Slide key="4">
-                                <img src="images/clients/mp.png">
+                            <img src="images/clients/mp.png">
                         </Slide>
                         <Slide key="5">
-                                <img src="images/clients/snr.jpeg" class="aspect-auto">
+                            <img src="images/clients/intex.jpg" class="aspect-auto">
+                        </Slide>
+                        <Slide key="6">
+                            <img src="images/clients/tulipan.jpg" class="aspect-auto">
+                        </Slide>
+                        <Slide key="7">
+                            <img src="images/clients/fioreste.jpg" class="aspect-auto">
+                        </Slide>
+                        <Slide key="8">
+                            <img src="images/clients/auto.jpg" class="aspect-auto">
+                        </Slide>
+                        <Slide key="9">
+                            <img src="images/clients/districars.jpg" class="aspect-auto">
                         </Slide>
 
                         <template #addons>
